@@ -1,5 +1,6 @@
 from tkinter import *
 import settings
+import sys
 
 main_window = Tk()
 
@@ -22,9 +23,10 @@ btnExit = Button(
     main_window,
     width=20,
     height=3,
-    text='EXIT'
+    text='EXIT',
 )
 
 btnExit.place(x=50, y=120)
+
 
 main_window.mainloop()
