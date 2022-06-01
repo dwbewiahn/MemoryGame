@@ -1,6 +1,16 @@
+import tkinter
 from tkinter import *
 import settings
 import sys
+
+
+def create_game_window():
+    game_window = tkinter.Toplevel()
+    game_window.title('Memory Card Game')
+    game_window.configure(bg=settings.MAIN_COLOR)
+    game_window.geometry(f'{settings.WIDTH}x{settings.HEIGHT}')
+    game_window.resizable(False, False)
+
 
 main_window = Tk()
 
@@ -14,7 +24,8 @@ btnStart = Button(
     main_window,
     width=20,
     height=3,
-    text='START'
+    text='START',
+    command=create_game_window
 )
 
 btnStart.place(x=50, y=50)
