@@ -28,5 +28,4 @@ btnExit = Button(
 
 btnExit.place(x=50, y=120)
 
-
 main_window.mainloop()
