@@ -1,7 +1,6 @@
 import tkinter
 from tkinter import *
 import settings
-import sys
 
 
 def create_game_window():
@@ -35,6 +34,7 @@ btnExit = Button(
     width=20,
     height=3,
     text='EXIT',
+    command=main_window.destroy
 )
 
 btnExit.place(x=50, y=120)
