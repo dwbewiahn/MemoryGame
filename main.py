@@ -4,11 +4,13 @@ import settings
 
 
 def create_game_window():
+    main_window.destroy
     game_window = tkinter.Toplevel()
     game_window.title('Memory Card Game')
     game_window.configure(bg=settings.MAIN_COLOR)
     game_window.geometry(f'{settings.WIDTH}x{settings.HEIGHT}')
     game_window.resizable(False, False)
+
 
 
 main_window = Tk()
