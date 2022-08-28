@@ -1,5 +1,5 @@
 # Memory Card Game
 
-A simple memory card game developed in python for praticing
+A simple memory card game developed in python.
 
 by Douglas Bewiahn
